@@ -1,0 +1,89 @@
+{
+  "title": "Character Classes: The Warlord",
+  "id": "foundry-pf2e-warlord",
+  "description": "",
+  "manifest": "https://raw.githubusercontent.com/Eldritch-Osiris-Games/foundry-pf2e-warlord/main/module.json",
+  "download": "https://github.com/Eldritch-Osiris-Games/foundry-pf2e-warlord/archive/refs/heads/main.zip",
+  "url": "https://github.com/Eldritch-Osiris-Games/foundry-pf2e-warlord",
+  "authors": [
+    {
+      "name": "Arkon",
+      "flags": {}
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "esmodules": ["popup.js"],
+  "packs": [
+    {
+      "label": "Warlord Actors",
+      "type": "Actor",
+      "name": "warlord-actors",
+      "path": "packs/warlord-actors.db",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Warlord Feats",
+      "type": "Item",
+      "name": "warlord-feats",
+      "path": "packs/warlord-feats.db",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Warlord Actions & Features",
+      "type": "Item",
+      "name": "warlord-features",
+      "path": "packs/warlord-features.db",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Warlord Effects",
+      "type": "Item",
+      "name": "warlord-effects",
+      "path": "packs/warlord-effects.db",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Warlord Journals",
+      "type": "JournalEntry",
+      "name": "warlord-journals",
+      "path": "packs/warlord-journals.db",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "flags": {
+    "foundry-pf2e-warlord": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "battlecry": "Battlecry",
+          "order": "Order",
+          "rally": "Rally",
+          "warlord": "Warlord"
+        }
+      }
+    }
+  }
+}
